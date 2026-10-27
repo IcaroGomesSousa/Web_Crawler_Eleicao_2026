@@ -12,6 +12,9 @@ LIMIT="${TSE_RESULTS_LIMIT:-20}"
 FEDERAL_ELECTION="${TSE_RESULTS_FEDERAL_ELECTION:-6257}"
 STATE_ELECTION="${TSE_RESULTS_STATE_ELECTION:-6259}"
 COLOR_MODE="${TSE_RESULTS_COLOR:-auto}"
+######
+coisas
+######
 
 die() { printf 'Erro: %s\n' "$*" >&2; exit 1; }
 command -v curl >/dev/null || die "curl não encontrado"
